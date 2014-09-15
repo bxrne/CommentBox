@@ -20,6 +20,7 @@ if ($_POST) {
 			<textarea rows="10" cols="30" name="commentTXT"></textarea><br>
 			<input type="submit" value=":: Post Comment ::">
 		</form><br><br>
+		<h2>Recent Comments :</h2><br>
 		<hr>
 				<?php include "comments.html";?>
 </html>
